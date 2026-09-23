@@ -16,7 +16,7 @@
   "use strict";
 
   var SUPABASE_URL = "https://wmisvmqhwzobqafjrwka.supabase.co/rest/v1/";
-  var SUPABASE_ANON_KEY = "sb_secret_TocigeOS8pO4WYyXoyW5_A_GZOGYtP3";
+  var SUPABASE_ANON_KEY = "sb_publishable_L5BC0VjiI_NgxMeFBLAvYQ_zuJzRh8V";
 
   var TABLE = "products";
   var supabase = null;
