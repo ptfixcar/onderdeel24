@@ -36,14 +36,14 @@
       </div>
 
       <div class="admin-note">
-        <strong>Catatan penting sebelum dipakai:</strong> katalog produk di situs ini tersimpan di database Supabase, jadi perubahan yang kamu simpan di panel ini <strong>langsung terlihat oleh semua pengunjung</strong>, di perangkat mana pun. Masuk ke panel ini pakai akun admin sungguhan (email dan kata sandi) yang login lewat Supabase Auth — bukan lagi sekadar kode akses di kode sumber. Database (lewat Row Level Security) yang benar-benar menolak perubahan dari siapa pun yang belum login, jadi ini keamanan sesungguhnya, bukan cuma pengaman tampilan. Cara membuat akun adminnya ada di CARA-SETUP-SUPABASE.md. Kalau situs belum menampilkan produk sama sekali, kemungkinan SUPABASE_URL dan SUPABASE_ANON_KEY di file products-data.js belum diisi.
+        <strong>⚠️ Peringatan:</strong> Anda sedang berada di halaman login administrator Onderdeel24. <strong>langsung terlihat oleh semua pengunjung</strong>Halaman ini digunakan khusus untuk pengelolaan sistem dan katalog produk dan bukan untuk penggunaan customer atau pengunjung umum. Apabila Anda hanya ingin melihat atau mencari produk, silakan kembali ke halaman utama. Pastikan Anda memiliki izin administrator sebelum melanjutkan.
       </div>
 
       <div id="admin-checking" style="text-align:center; padding:48px 0; color:var(--muted);">Memeriksa sesi masuk…</div>
 
       <div class="admin-gate" id="admin-gate" hidden>
         <h3 style="font-family:var(--font-display);font-weight:800;font-size:1.2rem;margin:0 0 6px;">Masuk sebagai admin</h3>
-        <p style="color:var(--muted);margin:0 0 18px;">Masuk pakai akun admin Supabase kamu.</p>
+        <p style="color:var(--muted);margin:0 0 18px;">Gunakan akun yang memiliki akses untuk melanjutkan.</p>
         <form id="gate-form">
           <div class="field" style="text-align:left;">
             <label for="gate-email">Email</label>
