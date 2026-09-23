@@ -15,8 +15,8 @@
 (function (global) {
   "use strict";
 
-  var SUPABASE_URL = "GANTI_DENGAN_PROJECT_URL_SUPABASE_KAMU";
-  var SUPABASE_ANON_KEY = "GANTI_DENGAN_ANON_KEY_SUPABASE_KAMU";
+  var SUPABASE_URL = "wmisvmqhwzobqafjrwka";
+  var SUPABASE_ANON_KEY = "sb_publishable_uVJtRSNtWaov3b8obeQpUQ_ovjgM21N";
 
   var TABLE = "products";
   var supabase = null;
