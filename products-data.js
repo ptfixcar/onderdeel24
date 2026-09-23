@@ -16,7 +16,7 @@
   "use strict";
 
   var SUPABASE_URL = "https://wmisvmqhwzobqafjrwka.supabase.co/rest/v1/";
-  var SUPABASE_ANON_KEY = "sb_publishable_uVJtRSNtWaov3b8obeQpUQ_ovjgM21N";
+  var SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndtaXN2bXFod3pvYnFhZmpyd2thIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTAxMzYyMzIsImV4cCI6MjEwNTcxMjIzMn0.Gw76Olhsd_3ooXuTBokkYinXsNnrqe9qtONdfP3EgDo";
 
   var TABLE = "products";
   var supabase = null;
